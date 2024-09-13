@@ -3,7 +3,7 @@ const path = require('path');
 const logger = require('morgan');
 const bodyParser = require('body-parser');
 const compression = require('compression');
-const port = process.env.PORT || 4000; // Example port
+const port = process.env.PORT || 4000; 
 
 require('./app/config/logging');
 
@@ -27,7 +27,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use((req, res, next) => {
-  res.header('Access-Control-Allow-Origin', process.env.ALLOWED_ORIGIN || 'http://localhost:4000');
+  res.header('Access-Control-Allow-Origin', process.env.ALLOWED_ORIGIN || 'https://cv-resume-builder-backend.vercel.app/0');
   res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS');
   res.header('Access-Control-Allow-Headers', 'Content-Type,token,authorization');
   res.header('Access-Control-Allow-Credentials', true);
