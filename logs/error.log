@@ -1,0 +1,1255 @@
+Error: dlopen(/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node, 0x0001): tried: '/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node' (mach-o file, but is an incompatible architecture (have 'arm64', need 'x86_64')), '/System/Volumes/Preboot/Cryptexes/OS/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node' (no such file), '/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node' (mach-o file, but is an incompatible architecture (have 'arm64', need 'x86_64'))
+    at Object.Module._extensions..node (internal/modules/cjs/loader.js:1173:18)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/FLM18/flm/node_modules/require-in-the-middle/index.js:101:39)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/node_modules/bcrypt/bcrypt.js:6:16)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+Error: dlopen(/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node, 0x0001): tried: '/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node' (mach-o file, but is an incompatible architecture (have 'arm64', need 'x86_64')), '/System/Volumes/Preboot/Cryptexes/OS/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node' (no such file), '/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node' (mach-o file, but is an incompatible architecture (have 'arm64', need 'x86_64'))
+    at Object.Module._extensions..node (internal/modules/cjs/loader.js:1173:18)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/FLM18/flm/node_modules/require-in-the-middle/index.js:101:39)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/node_modules/bcrypt/bcrypt.js:6:16)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+Error: dlopen(/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node, 0x0001): tried: '/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node' (mach-o file, but is an incompatible architecture (have 'arm64', need 'x86_64')), '/System/Volumes/Preboot/Cryptexes/OS/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node' (no such file), '/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node' (mach-o file, but is an incompatible architecture (have 'arm64', need 'x86_64'))
+    at Object.Module._extensions..node (internal/modules/cjs/loader.js:1173:18)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/FLM18/flm/node_modules/require-in-the-middle/index.js:101:39)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/node_modules/bcrypt/bcrypt.js:6:16)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+Error: dlopen(/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node, 0x0001): tried: '/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node' (mach-o file, but is an incompatible architecture (have 'arm64', need 'x86_64')), '/System/Volumes/Preboot/Cryptexes/OS/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node' (no such file), '/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node' (mach-o file, but is an incompatible architecture (have 'arm64', need 'x86_64'))
+    at Object.Module._extensions..node (internal/modules/cjs/loader.js:1173:18)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/FLM18/flm/node_modules/require-in-the-middle/index.js:101:39)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/node_modules/bcrypt/bcrypt.js:6:16)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+Error: dlopen(/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node, 0x0001): tried: '/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node' (mach-o file, but is an incompatible architecture (have 'arm64', need 'x86_64')), '/System/Volumes/Preboot/Cryptexes/OS/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node' (no such file), '/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node' (mach-o file, but is an incompatible architecture (have 'arm64', need 'x86_64'))
+    at Object.Module._extensions..node (internal/modules/cjs/loader.js:1173:18)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/FLM18/flm/node_modules/require-in-the-middle/index.js:101:39)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/node_modules/bcrypt/bcrypt.js:6:16)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+Error: dlopen(/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node, 0x0001): tried: '/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node' (mach-o file, but is an incompatible architecture (have 'arm64', need 'x86_64')), '/System/Volumes/Preboot/Cryptexes/OS/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node' (no such file), '/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node' (mach-o file, but is an incompatible architecture (have 'arm64', need 'x86_64'))
+    at Object.Module._extensions..node (internal/modules/cjs/loader.js:1173:18)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/FLM18/flm/node_modules/require-in-the-middle/index.js:101:39)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/node_modules/bcrypt/bcrypt.js:6:16)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+Error: dlopen(/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node, 0x0001): tried: '/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node' (mach-o file, but is an incompatible architecture (have 'arm64', need 'x86_64')), '/System/Volumes/Preboot/Cryptexes/OS/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node' (no such file), '/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node' (mach-o file, but is an incompatible architecture (have 'arm64', need 'x86_64'))
+    at Object.Module._extensions..node (internal/modules/cjs/loader.js:1173:18)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/FLM18/flm/node_modules/require-in-the-middle/index.js:101:39)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/node_modules/bcrypt/bcrypt.js:6:16)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+Error: dlopen(/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node, 0x0001): tried: '/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node' (mach-o file, but is an incompatible architecture (have 'arm64', need 'x86_64')), '/System/Volumes/Preboot/Cryptexes/OS/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node' (no such file), '/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node' (mach-o file, but is an incompatible architecture (have 'arm64', need 'x86_64'))
+    at Object.Module._extensions..node (internal/modules/cjs/loader.js:1173:18)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/FLM18/flm/node_modules/require-in-the-middle/index.js:101:39)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/node_modules/bcrypt/bcrypt.js:6:16)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+Error: dlopen(/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node, 0x0001): tried: '/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node' (mach-o file, but is an incompatible architecture (have 'arm64', need 'x86_64')), '/System/Volumes/Preboot/Cryptexes/OS/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node' (no such file), '/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node' (mach-o file, but is an incompatible architecture (have 'arm64', need 'x86_64'))
+    at Object.Module._extensions..node (internal/modules/cjs/loader.js:1173:18)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/FLM18/flm/node_modules/require-in-the-middle/index.js:101:39)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/node_modules/bcrypt/bcrypt.js:6:16)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+Error: dlopen(/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node, 0x0001): tried: '/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node' (mach-o file, but is an incompatible architecture (have 'arm64', need 'x86_64')), '/System/Volumes/Preboot/Cryptexes/OS/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node' (no such file), '/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node' (mach-o file, but is an incompatible architecture (have 'arm64', need 'x86_64'))
+    at Object.Module._extensions..node (internal/modules/cjs/loader.js:1173:18)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/FLM18/flm/node_modules/require-in-the-middle/index.js:101:39)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/node_modules/bcrypt/bcrypt.js:6:16)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+Error: dlopen(/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node, 0x0001): tried: '/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node' (mach-o file, but is an incompatible architecture (have 'arm64', need 'x86_64')), '/System/Volumes/Preboot/Cryptexes/OS/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node' (no such file), '/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node' (mach-o file, but is an incompatible architecture (have 'arm64', need 'x86_64'))
+    at Object.Module._extensions..node (internal/modules/cjs/loader.js:1173:18)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/FLM18/flm/node_modules/require-in-the-middle/index.js:101:39)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/node_modules/bcrypt/bcrypt.js:6:16)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+Error: dlopen(/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node, 0x0001): tried: '/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node' (mach-o file, but is an incompatible architecture (have 'arm64', need 'x86_64')), '/System/Volumes/Preboot/Cryptexes/OS/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node' (no such file), '/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node' (mach-o file, but is an incompatible architecture (have 'arm64', need 'x86_64'))
+    at Object.Module._extensions..node (internal/modules/cjs/loader.js:1173:18)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/FLM18/flm/node_modules/require-in-the-middle/index.js:101:39)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/node_modules/bcrypt/bcrypt.js:6:16)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+Error: dlopen(/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node, 0x0001): tried: '/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node' (mach-o file, but is an incompatible architecture (have 'arm64', need 'x86_64')), '/System/Volumes/Preboot/Cryptexes/OS/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node' (no such file), '/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node' (mach-o file, but is an incompatible architecture (have 'arm64', need 'x86_64'))
+    at Object.Module._extensions..node (internal/modules/cjs/loader.js:1173:18)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/FLM18/flm/node_modules/require-in-the-middle/index.js:101:39)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/node_modules/bcrypt/bcrypt.js:6:16)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+Error: dlopen(/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node, 0x0001): tried: '/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node' (mach-o file, but is an incompatible architecture (have 'arm64', need 'x86_64')), '/System/Volumes/Preboot/Cryptexes/OS/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node' (no such file), '/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node' (mach-o file, but is an incompatible architecture (have 'arm64', need 'x86_64'))
+    at Object.Module._extensions..node (internal/modules/cjs/loader.js:1173:18)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/FLM18/flm/node_modules/require-in-the-middle/index.js:101:39)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/node_modules/bcrypt/bcrypt.js:6:16)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+Error: dlopen(/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node, 0x0001): tried: '/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node' (mach-o file, but is an incompatible architecture (have 'arm64', need 'x86_64')), '/System/Volumes/Preboot/Cryptexes/OS/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node' (no such file), '/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node' (mach-o file, but is an incompatible architecture (have 'arm64', need 'x86_64'))
+    at Object.Module._extensions..node (internal/modules/cjs/loader.js:1173:18)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/FLM18/flm/node_modules/require-in-the-middle/index.js:101:39)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/node_modules/bcrypt/bcrypt.js:6:16)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+Error: dlopen(/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node, 0x0001): tried: '/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node' (mach-o file, but is an incompatible architecture (have 'arm64', need 'x86_64')), '/System/Volumes/Preboot/Cryptexes/OS/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node' (no such file), '/Users/zohaib/Private/projects/backend/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node' (mach-o file, but is an incompatible architecture (have 'arm64', need 'x86_64'))
+    at Object.Module._extensions..node (internal/modules/cjs/loader.js:1173:18)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/FLM18/flm/node_modules/require-in-the-middle/index.js:101:39)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/node_modules/bcrypt/bcrypt.js:6:16)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+Error: Cannot find module 'express'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/FLM18/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app.js:1:17)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/FLM18/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module 'express'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/FLM18/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app.js:1:17)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/FLM18/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module 'express'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/FLM18/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app.js:1:17)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/FLM18/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module 'express'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/FLM18/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app.js:1:17)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/FLM18/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module 'express'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/FLM18/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app.js:1:17)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/FLM18/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module 'express'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/FLM18/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app.js:1:17)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/FLM18/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module 'express'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/FLM18/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app.js:1:17)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/FLM18/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module 'express'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/FLM18/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app.js:1:17)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/FLM18/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module 'express'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/FLM18/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app.js:1:17)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/FLM18/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module 'express'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/FLM18/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app.js:1:17)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/FLM18/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module 'express'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/FLM18/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app.js:1:17)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/FLM18/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module 'express'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/FLM18/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app.js:1:17)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/FLM18/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module 'express'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/FLM18/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app.js:1:17)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/FLM18/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module 'express'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/FLM18/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app.js:1:17)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/FLM18/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module 'express'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/FLM18/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app.js:1:17)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/FLM18/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module 'express'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/FLM18/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app.js:1:17)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/FLM18/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module '../constants'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app/config/config.js
+- /Users/zohaib/Private/projects/backend/app/models/index.js
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app/config/config.js:3:19)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module '../constants'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app/config/config.js
+- /Users/zohaib/Private/projects/backend/app/models/index.js
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app/config/config.js:3:19)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module '../constants'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app/config/config.js
+- /Users/zohaib/Private/projects/backend/app/models/index.js
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app/config/config.js:3:19)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module '../constants'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app/config/config.js
+- /Users/zohaib/Private/projects/backend/app/models/index.js
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app/config/config.js:3:19)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module '../constants'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app/config/config.js
+- /Users/zohaib/Private/projects/backend/app/models/index.js
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app/config/config.js:3:19)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module '../constants'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app/config/config.js
+- /Users/zohaib/Private/projects/backend/app/models/index.js
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app/config/config.js:3:19)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module '../constants'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app/config/config.js
+- /Users/zohaib/Private/projects/backend/app/models/index.js
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app/config/config.js:3:19)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module '../constants'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app/config/config.js
+- /Users/zohaib/Private/projects/backend/app/models/index.js
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app/config/config.js:3:19)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module '../constants'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app/config/config.js
+- /Users/zohaib/Private/projects/backend/app/models/index.js
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app/config/config.js:3:19)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module '../constants'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app/config/config.js
+- /Users/zohaib/Private/projects/backend/app/models/index.js
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app/config/config.js:3:19)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module '../constants'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app/config/config.js
+- /Users/zohaib/Private/projects/backend/app/models/index.js
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app/config/config.js:3:19)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module '../constants'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app/config/config.js
+- /Users/zohaib/Private/projects/backend/app/models/index.js
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app/config/config.js:3:19)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module '../constants'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app/config/config.js
+- /Users/zohaib/Private/projects/backend/app/models/index.js
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app/config/config.js:3:19)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module '../constants'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app/config/config.js
+- /Users/zohaib/Private/projects/backend/app/models/index.js
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app/config/config.js:3:19)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module '../constants'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app/config/config.js
+- /Users/zohaib/Private/projects/backend/app/models/index.js
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app/config/config.js:3:19)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module '../constants'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app/config/config.js
+- /Users/zohaib/Private/projects/backend/app/models/index.js
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app/config/config.js:3:19)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module '../constants'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app/helpers/seql.js
+- /Users/zohaib/Private/projects/backend/app/helpers/index.js
+- /Users/zohaib/Private/projects/backend/app/models/index.js
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app/helpers/seql.js:3:19)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module '../constants'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app/helpers/seql.js
+- /Users/zohaib/Private/projects/backend/app/helpers/index.js
+- /Users/zohaib/Private/projects/backend/app/models/index.js
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app/helpers/seql.js:3:19)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module '../constants'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app/helpers/seql.js
+- /Users/zohaib/Private/projects/backend/app/helpers/index.js
+- /Users/zohaib/Private/projects/backend/app/models/index.js
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app/helpers/seql.js:3:19)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module '../constants'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app/helpers/seql.js
+- /Users/zohaib/Private/projects/backend/app/helpers/index.js
+- /Users/zohaib/Private/projects/backend/app/models/index.js
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app/helpers/seql.js:3:19)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module '../constants'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app/helpers/seql.js
+- /Users/zohaib/Private/projects/backend/app/helpers/index.js
+- /Users/zohaib/Private/projects/backend/app/models/index.js
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app/helpers/seql.js:3:19)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module '../constants'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app/helpers/seql.js
+- /Users/zohaib/Private/projects/backend/app/helpers/index.js
+- /Users/zohaib/Private/projects/backend/app/models/index.js
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app/helpers/seql.js:3:19)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module '../constants'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app/helpers/seql.js
+- /Users/zohaib/Private/projects/backend/app/helpers/index.js
+- /Users/zohaib/Private/projects/backend/app/models/index.js
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app/helpers/seql.js:3:19)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module '../constants'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app/helpers/seql.js
+- /Users/zohaib/Private/projects/backend/app/helpers/index.js
+- /Users/zohaib/Private/projects/backend/app/models/index.js
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app/helpers/seql.js:3:19)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module '../constants'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app/helpers/seql.js
+- /Users/zohaib/Private/projects/backend/app/helpers/index.js
+- /Users/zohaib/Private/projects/backend/app/models/index.js
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app/helpers/seql.js:3:19)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module '../constants'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app/helpers/seql.js
+- /Users/zohaib/Private/projects/backend/app/helpers/index.js
+- /Users/zohaib/Private/projects/backend/app/models/index.js
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app/helpers/seql.js:3:19)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module '../constants'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app/helpers/seql.js
+- /Users/zohaib/Private/projects/backend/app/helpers/index.js
+- /Users/zohaib/Private/projects/backend/app/models/index.js
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app/helpers/seql.js:3:19)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module '../constants'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app/helpers/seql.js
+- /Users/zohaib/Private/projects/backend/app/helpers/index.js
+- /Users/zohaib/Private/projects/backend/app/models/index.js
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app/helpers/seql.js:3:19)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module '../constants'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app/helpers/seql.js
+- /Users/zohaib/Private/projects/backend/app/helpers/index.js
+- /Users/zohaib/Private/projects/backend/app/models/index.js
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app/helpers/seql.js:3:19)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module '../constants'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app/helpers/seql.js
+- /Users/zohaib/Private/projects/backend/app/helpers/index.js
+- /Users/zohaib/Private/projects/backend/app/models/index.js
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app/helpers/seql.js:3:19)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module '../constants'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app/helpers/seql.js
+- /Users/zohaib/Private/projects/backend/app/helpers/index.js
+- /Users/zohaib/Private/projects/backend/app/models/index.js
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app/helpers/seql.js:3:19)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module '../constants'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app/helpers/seql.js
+- /Users/zohaib/Private/projects/backend/app/helpers/index.js
+- /Users/zohaib/Private/projects/backend/app/models/index.js
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app/helpers/seql.js:3:19)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module '../constants'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app/helpers/seql.js
+- /Users/zohaib/Private/projects/backend/app/helpers/index.js
+- /Users/zohaib/Private/projects/backend/app/models/index.js
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app/helpers/seql.js:3:19)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module '../constants'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app/helpers/seql.js
+- /Users/zohaib/Private/projects/backend/app/helpers/index.js
+- /Users/zohaib/Private/projects/backend/app/models/index.js
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app/helpers/seql.js:3:19)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module '../constants'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app/helpers/seql.js
+- /Users/zohaib/Private/projects/backend/app/helpers/index.js
+- /Users/zohaib/Private/projects/backend/app/models/index.js
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app/helpers/seql.js:3:19)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module '../constants'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app/helpers/seql.js
+- /Users/zohaib/Private/projects/backend/app/helpers/index.js
+- /Users/zohaib/Private/projects/backend/app/models/index.js
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app/helpers/seql.js:3:19)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module '../constants'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app/helpers/seql.js
+- /Users/zohaib/Private/projects/backend/app/helpers/index.js
+- /Users/zohaib/Private/projects/backend/app/models/index.js
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app/helpers/seql.js:3:19)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module '../constants'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app/helpers/seql.js
+- /Users/zohaib/Private/projects/backend/app/helpers/index.js
+- /Users/zohaib/Private/projects/backend/app/models/index.js
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app/helpers/seql.js:3:19)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module '../constants'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app/helpers/seql.js
+- /Users/zohaib/Private/projects/backend/app/helpers/index.js
+- /Users/zohaib/Private/projects/backend/app/models/index.js
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app/helpers/seql.js:3:19)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module '../constants'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app/helpers/seql.js
+- /Users/zohaib/Private/projects/backend/app/helpers/index.js
+- /Users/zohaib/Private/projects/backend/app/models/index.js
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app/helpers/seql.js:3:19)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module '../constants'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app/helpers/seql.js
+- /Users/zohaib/Private/projects/backend/app/helpers/index.js
+- /Users/zohaib/Private/projects/backend/app/models/index.js
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app/helpers/seql.js:3:19)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module '../constants'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app/helpers/seql.js
+- /Users/zohaib/Private/projects/backend/app/helpers/index.js
+- /Users/zohaib/Private/projects/backend/app/models/index.js
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app/helpers/seql.js:3:19)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module '../constants'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app/helpers/seql.js
+- /Users/zohaib/Private/projects/backend/app/helpers/index.js
+- /Users/zohaib/Private/projects/backend/app/models/index.js
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app/helpers/seql.js:3:19)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module '../constants'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app/helpers/seql.js
+- /Users/zohaib/Private/projects/backend/app/helpers/index.js
+- /Users/zohaib/Private/projects/backend/app/models/index.js
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app/helpers/seql.js:3:19)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module '../constants'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app/helpers/seql.js
+- /Users/zohaib/Private/projects/backend/app/helpers/index.js
+- /Users/zohaib/Private/projects/backend/app/models/index.js
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app/helpers/seql.js:3:19)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module '../constants'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app/helpers/seql.js
+- /Users/zohaib/Private/projects/backend/app/helpers/index.js
+- /Users/zohaib/Private/projects/backend/app/models/index.js
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app/helpers/seql.js:3:19)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module '../constants'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app/helpers/seql.js
+- /Users/zohaib/Private/projects/backend/app/helpers/index.js
+- /Users/zohaib/Private/projects/backend/app/models/index.js
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app/helpers/seql.js:3:19)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Cannot find module '../constants'
+Require stack:
+- /Users/zohaib/Private/projects/backend/app/helpers/seql.js
+- /Users/zohaib/Private/projects/backend/app/helpers/index.js
+- /Users/zohaib/Private/projects/backend/app/models/index.js
+- /Users/zohaib/Private/projects/backend/app.js
+- /Users/zohaib/Private/projects/backend/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:81:25)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/Users/zohaib/Private/projects/backend/app/helpers/seql.js:3:19)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at Module.Hook._require.Module.require (/Users/zohaib/Office/FLM/flm/node_modules/require-in-the-middle/index.js:101:39)
+Error: Not Found
+    at E:\Cipher Tech\Projects\cv_resume_builder_backend-main\app.js:44:15
+    at Layer.handle [as handle_request] (E:\Cipher Tech\Projects\cv_resume_builder_backend-main\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Cipher Tech\Projects\cv_resume_builder_backend-main\node_modules\express\lib\router\index.js:328:13)
+    at E:\Cipher Tech\Projects\cv_resume_builder_backend-main\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Cipher Tech\Projects\cv_resume_builder_backend-main\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Cipher Tech\Projects\cv_resume_builder_backend-main\node_modules\express\lib\router\index.js:280:10)
+    at E:\Cipher Tech\Projects\cv_resume_builder_backend-main\node_modules\express\lib\router\index.js:646:15
+    at next (E:\Cipher Tech\Projects\cv_resume_builder_backend-main\node_modules\express\lib\router\index.js:265:14)
+    at E:\Cipher Tech\Projects\cv_resume_builder_backend-main\node_modules\express\lib\router\index.js:646:15
+    at next (E:\Cipher Tech\Projects\cv_resume_builder_backend-main\node_modules\express\lib\router\index.js:265:14)
+Error: Not Found
+    at E:\Cipher Tech\Projects\cv_resume_builder_backend-main\app.js:44:15
+    at Layer.handle [as handle_request] (E:\Cipher Tech\Projects\cv_resume_builder_backend-main\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Cipher Tech\Projects\cv_resume_builder_backend-main\node_modules\express\lib\router\index.js:328:13)
+    at E:\Cipher Tech\Projects\cv_resume_builder_backend-main\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Cipher Tech\Projects\cv_resume_builder_backend-main\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Cipher Tech\Projects\cv_resume_builder_backend-main\node_modules\express\lib\router\index.js:280:10)
+    at E:\Cipher Tech\Projects\cv_resume_builder_backend-main\node_modules\express\lib\router\index.js:646:15
+    at next (E:\Cipher Tech\Projects\cv_resume_builder_backend-main\node_modules\express\lib\router\index.js:265:14)
+    at E:\Cipher Tech\Projects\cv_resume_builder_backend-main\node_modules\express\lib\router\index.js:646:15
+    at next (E:\Cipher Tech\Projects\cv_resume_builder_backend-main\node_modules\express\lib\router\index.js:265:14)
+Error: Not Found
+    at E:\Cipher Tech\Projects\cv_resume_builder_backend-main\app.js:44:15
+    at Layer.handle [as handle_request] (E:\Cipher Tech\Projects\cv_resume_builder_backend-main\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Cipher Tech\Projects\cv_resume_builder_backend-main\node_modules\express\lib\router\index.js:328:13)
+    at E:\Cipher Tech\Projects\cv_resume_builder_backend-main\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Cipher Tech\Projects\cv_resume_builder_backend-main\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Cipher Tech\Projects\cv_resume_builder_backend-main\node_modules\express\lib\router\index.js:280:10)
+    at E:\Cipher Tech\Projects\cv_resume_builder_backend-main\node_modules\express\lib\router\index.js:646:15
+    at next (E:\Cipher Tech\Projects\cv_resume_builder_backend-main\node_modules\express\lib\router\index.js:265:14)
+    at E:\Cipher Tech\Projects\cv_resume_builder_backend-main\node_modules\express\lib\router\index.js:646:15
+    at next (E:\Cipher Tech\Projects\cv_resume_builder_backend-main\node_modules\express\lib\router\index.js:265:14)
+Error: Not Found
+    at E:\Cipher Tech\Projects\cv_resume_builder_backend-main\app.js:44:15
+    at Layer.handle [as handle_request] (E:\Cipher Tech\Projects\cv_resume_builder_backend-main\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Cipher Tech\Projects\cv_resume_builder_backend-main\node_modules\express\lib\router\index.js:328:13)
+    at E:\Cipher Tech\Projects\cv_resume_builder_backend-main\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Cipher Tech\Projects\cv_resume_builder_backend-main\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Cipher Tech\Projects\cv_resume_builder_backend-main\node_modules\express\lib\router\index.js:280:10)
+    at E:\Cipher Tech\Projects\cv_resume_builder_backend-main\node_modules\express\lib\router\index.js:646:15
+    at next (E:\Cipher Tech\Projects\cv_resume_builder_backend-main\node_modules\express\lib\router\index.js:265:14)
+    at E:\Cipher Tech\Projects\cv_resume_builder_backend-main\node_modules\express\lib\router\index.js:646:15
+    at next (E:\Cipher Tech\Projects\cv_resume_builder_backend-main\node_modules\express\lib\router\index.js:265:14)
+Error: Not Found
+    at E:\Cipher Tech\Projects\cv_resume_builder_backend-main\app.js:44:15
+    at Layer.handle [as handle_request] (E:\Cipher Tech\Projects\cv_resume_builder_backend-main\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Cipher Tech\Projects\cv_resume_builder_backend-main\node_modules\express\lib\router\index.js:328:13)
+    at E:\Cipher Tech\Projects\cv_resume_builder_backend-main\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Cipher Tech\Projects\cv_resume_builder_backend-main\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Cipher Tech\Projects\cv_resume_builder_backend-main\node_modules\express\lib\router\index.js:280:10)
+    at E:\Cipher Tech\Projects\cv_resume_builder_backend-main\node_modules\express\lib\router\index.js:646:15
+    at next (E:\Cipher Tech\Projects\cv_resume_builder_backend-main\node_modules\express\lib\router\index.js:265:14)
+    at E:\Cipher Tech\Projects\cv_resume_builder_backend-main\node_modules\express\lib\router\index.js:646:15
+    at next (E:\Cipher Tech\Projects\cv_resume_builder_backend-main\node_modules\express\lib\router\index.js:265:14)
