@@ -2,12 +2,18 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "backend",
-  "main": "index.js",
+  "main": "app.js",
   "author": "CodeX",
   "license": "MIT",
   "scripts": {
-    "start": "app.js",
-    
+    "start": "./node_modules/pm2/bin/pm2 nod pm2.config.js",
+    "dev": "./node_modules/pm2/bin/pm2 start pm2.config.js",
+    "stop": "./node_modules/pm2/bin/pm2 stop pm2.config.js",
+    "delete": "./node_modules/pm2/bin/pm2 delete pm2.config.js",
+    "reload": "./node_modules/pm2/bin/pm2 gracefulReload pm2.config.js",
+    "restart": "./node_modules/pm2/bin/pm2 restart pm2.config.js",
+    "logs": "./node_modules/pm2/bin/pm2 logs --raw | ./node_modules/bunyan/bin/bunyan",
+    "status": "./node_modules/pm2/bin/pm2 status"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
