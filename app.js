@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const compression = require('compression');
 const port = process.env.PORT || 4000; 
 
-// require('./app/config/logging');
+require('./app/config/logging');
 
 const app = express();
 
