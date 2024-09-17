@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= candidate.name %> Resume</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .table th,
+        .table td {
+            border-bottom: none;
+        }
+
+        .resume-header img {
+            border-radius: 10%;
+            width: 120px;
+            height: 120px;
+            margin-right: 20px;
+        }
+
+        .resume-header h1 {
+            font-size: 24px;
+            color: #00366D;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .resume-header p {
+            font-size: 14px;
+            margin-bottom: 2px;
+            display: flex ;
+            justify-content: flex-start;
+        }
+
+        .resume-header .contact-info p {
+            margin-bottom: 0;
+            text-align: center;
+        }
+
+        .resume-header .summary {
+            margin-top: 5px;
+            padding-bottom: 10px;
+        }
+
+        .heading-text{
+            color: #00366D;
+        }
+
+        .resume-header .summary h5 {
+            display: inline-block;
+            padding-bottom: 5px;
+            margin-bottom: 0;
+            font-size: 18px;
+        }
+
+        .underline {
+            border-bottom: 2px solid #00366D;
+            width: 100%;
+            margin-top: -2px;
+        }
+
+        .resume-header .summary p {
+            font-size: 14px;
+        }
+
+        .education-entry,
+        .experience-entry {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: -2px;
+        }
+
+        .education-entry h6,
+        .experience-entry h6 {
+            margin: 0;
+        }
+
+        .education-entry .date,
+        .education-entry .marks,
+        .experience-entry .date {
+            font-size: 14px;
+            color: black;
+            text-align: right;
+        }
+        .skills-entry {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: -2px;
+            }
+
+        .skills-entry h6 {
+                margin: 0;
+            }
+
+            .skills-entry .date {
+                font-size: 14px;
+                color: black;
+                text-align: right;
+            }
+
+
+        @media print {
+            .page-break {
+                page-break-before: always;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="row">
+            <table class="table">
+                <tr>
+                    <td colspan="2" class="resume-header">
+                        <div class="d-flex">
+                            <div>
+                                <img src="./avatar.jpg" alt="Profile Image">
+                            </div>
+                            <div>
+                                <h1><%= candidate.name %></h1>
+                                <div class="contact-info profile">
+                                    <p><strong>Address:</strong> <%= candidate.address %></p>
+                                    <p><strong>Phone:</strong> <%= candidate.phoneNumber %></p>
+                                    <p><strong>Email:</strong> <%= candidate.email %></p>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Summary -->
+        <div class="row">
+            <table class="table">
+                <tr>
+                    <td>
+                        <div class="summary">
+                            <h5 class="heading-text">Summary</h5>
+                            <div class="underline"></div>
+                        </div>
+                        <p><%= candidate.summary %></p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Objective -->
+        <div class="row">
+            <table class="table">
+                <tr>
+                    <td>
+                        <div class="summary">
+                            <h5 class="heading-text">Objective</h5>
+                            <div class="underline"></div>
+                        </div>
+                        <p><%= candidate.objective.objective %></p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Education -->
+        <div class="row">
+            <table class="table">
+                <tr>
+                    <td colspan="2">
+                        <h5 class="heading-text">Education</h5>
+                        <div class="underline"></div>
+                    </td>
+                </tr>
+                <% candidate.qualifications.forEach(function(qual) { %>
+                <tr>
+                    <td colspan="2">
+                        <div class="education-entry">
+                            <h6><%= qual.degree %> in <%= qual.qualification %></h6>
+                            <span class="date"><%= new Date(qual.startDate).getFullYear() %> - <%= new Date(qual.endDate).getFullYear() %></span>
+                        </div>
+                        <div class="education-entry">
+                            <h6 style="margin-left: 6px;"><%= qual.school %> at <%= qual.city %></h6>
+                            <span class="marks">Marks/CGPA: <%= qual.obtainMarks %> / <%= qual.totalMarks %></span>
+                        </div>
+                    </td>
+                </tr>
+                <% }); %>
+            </table>
+        </div>
+
+        <!-- Experience -->
+        <div class="row">
+            <table class="table">
+                <tr>
+                    <td colspan="2">
+                        <h5 class="heading-text">Experience</h5>
+                        <div class="underline"></div>
+                    </td>
+                </tr>
+                <% candidate.experience.forEach(function(exp) { %>
+                <tr>
+                    <td colspan="2">
+                        <div class="experience-entry">
+                            <h6><%= exp.organizationName %> at <%= exp.city %></h6>
+                            <span class="date"><%= new Date(exp.startDate).toLocaleDateString() %> - <%= new Date(exp.endDate).toLocaleDateString() %></span>
+                        </div>
+                        <div class="experience-entry">
+                            <h7  style="margin-left: 4px;"><%= exp.desigination %></h7>
+                        </div>
+                        <p style="margin-left: 8px;"><%= exp.description %></p>
+                    </td>
+                </tr>
+                <% }); %>
+            </table>
+        </div>
+
+        <!-- Skills -->
+<div class="row">
+    <table class="table">
+        <tr>
+            <td colspan="2">
+                <h5 class="heading-text">Skills</h5>
+                <div class="underline"></div>
+            </td>
+        </tr>
+        <% candidate.skill.forEach(function(skill) { %>
+        <tr>
+            <td colspan="2">
+                <div class="skills-entry">
+                    <h6><%= skill.name %></h6>
+                </div>
+            </td>
+        </tr>
+        <% }); %>
+    </table>
+</div>
+
+    </div>
+</body>
+
+</html>

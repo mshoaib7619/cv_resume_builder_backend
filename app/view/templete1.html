@@ -1,0 +1,453 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title><%= candidate.name %> Resume</title>
+</head>
+<style>
+    /* Google Fonts  */
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: #EBECF0;
+    }
+
+    .main-section {
+        width: 210mm;
+        height: 297mm;
+        background-color: white;
+        margin: 0 auto;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        display: flex;
+    }
+
+    .main-section .left-part {
+        width: 40%;
+        height: 100%;
+        background-color: #F4F4F4;
+        padding: 2.8rem;
+    }
+
+    .left-part .photo-container {
+        margin-bottom: 1.2rem;
+    }
+
+    .left-part .photo-container img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        border: 1rem solid white;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+
+    .title {
+        font-family: 'Public Sans', sans-serif;
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        padding: 0.6rem;
+        background-color: #444440;
+        color: white;
+        text-align: center;
+        margin: 1.4rem 0;
+    }
+
+    .contact-container {
+        margin-bottom: 2.2rem;
+    }
+
+    .contact-container .contact-list {
+        display: flex;
+        align-items: center; 
+        gap: 1rem;
+        margin-bottom: 1rem;
+        font-family: 'Lato', sans-serif;
+        color: #444440;
+        font-size: 1rem;
+    }
+
+    .contact-container .icon-container {
+        margin-right: 1rem; 
+    }
+
+    .contact-container .icon-container img {
+        width: 24px; 
+        height: 24px; 
+        vertical-align: middle; 
+    }
+
+    .education-container {
+        margin-bottom: 2.2rem;
+        font-family: 'Lato', sans-serif;
+    }
+
+    .education-container .course {
+        margin-bottom: 1rem;
+        color: #414042;
+    }
+
+    .education-container .education-title {
+        font-size: 1rem;
+        font-weight: 800;
+        margin-bottom: .3rem;
+    }
+
+    .education-container .college-name {
+        margin-bottom: 0.3rem;
+        font-weight: 600;
+    }
+
+    .education-container .education-date {
+        font-size: 0.9rem;
+    }
+
+    .skills-container .skill {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 0.6rem;
+        font-family: 'Lato', sans-serif;
+    }
+
+    .skills-container .skill .right-skill .outer-layer {
+        background-color: #BBBBBB;
+        height: 0.4rem;
+        width: 5rem;
+        border-radius: 0.4rem;
+    }
+
+    .skills-container .skill .right-skill .inner-layer {
+        background-color: #3D3D3D;
+        height: 100%;
+        border-radius: inherit;
+    }
+
+    .right-part {
+        padding: 2.8rem;
+    }
+
+    .right-part .banner {
+        font-family: 'Open Sans', sans-serif;
+        color: #4D4D4F;
+        margin-bottom: 2.2rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .right-part .banner .name-container {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0.5rem;
+    }
+
+    .right-part .banner .firstname {
+        font-size: 2rem;
+        margin: 0;
+    }
+
+    .right-part .banner .position {
+        letter-spacing: 0.3rem;
+        font-size: 1.1rem;
+        margin: 0;
+    }
+
+    .objective-container {
+        font-family: 'Lato', sans-serif;
+    }
+
+    .objective-container .objective .objective-text {
+        color: #737373;
+        font-size: 0.8rem;
+        text-align: justify;
+    }
+
+    .work-container {
+        margin-top: 2rem;
+        font-family: 'Lato', sans-serif;
+    }
+
+    .work-container .work:not(:last-child) {
+        margin-bottom: 1.8rem;
+    }
+
+    .work-container .work .job-date {
+        display: flex;
+        justify-content: space-between;
+        color: #4D4D4F;
+        margin-bottom: 0.5rem;
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+
+    .work-container .work .company-name {
+        font-size: 0.9rem;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+        color: #4D4D4F;
+    }
+
+    .work-container .work .work-text {
+        color: #737373;
+        font-size: 0.8rem;
+        text-align: justify;
+        line-height: 1rem;
+    }
+
+    .hobbies-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem; /* Space between columns */
+    }
+
+    .hobbies-container .hobby {
+        font-family: 'Lato', sans-serif;
+        color: #444440;
+        font-size: 1rem;
+    }
+
+
+    .references-container .references {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1rem;
+        font-family: 'Lato', sans-serif;
+        color: #4D4D4F;
+    }
+
+    .references-container .references .name {
+        font-weight: 800;
+        font-size: 1.1rem;
+    }
+
+    .references-container .references .company-name {
+        margin: 1rem 0;
+        font-size: 0.9rem;
+    }
+
+    .references-container .references .phone {
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.7rem;
+        color: #414042;
+    }
+    .right-reference{
+        color: #737373;
+    }
+
+    .references-container .references .phone p {
+        margin: 0.4rem 0;
+    }
+
+    .references-container .references .phone .phone-text {
+        font-weight: 600;
+    }
+
+    .text-left {
+        text-align: left;
+    }
+ 
+
+@media print {
+    @page {
+        size: A4;
+    }
+
+    .page-break {
+        page-break-before: always; 
+    }
+
+    .new-page-margin {
+        margin-top: 30px; 
+    }
+    .avoid-page-break {
+        page-break-inside: avoid;
+    }
+}
+
+    .dynamic-page-break {
+        page-break-inside: auto; 
+        overflow: hidden;
+    }
+
+
+
+</style>
+<body>
+    <section class="main-section">
+        <div class="left-part">
+            <div class="photo-container">
+                <img src="https://w0.peakpx.com/wallpaper/208/752/HD-wallpaper-whatsapp-dp-cartoon.jpg" alt="Profile Photo">
+            </div>
+            <div class="contact-container">
+                <h2 class="title">Contact Me</h2>
+                <div class="contact-list">
+                    <div class="icon-container">
+                        <img src="./images/location.svg" alt="Location Icon">
+                    </div>
+                    <div class="contact-text">
+                        <p><%= candidate.address %></p>
+                    </div>
+                </div>
+                <div class="contact-list">
+                    <div class="icon-container">
+                        <img src="./images/email.svg" alt="Email Icon">
+                    </div>
+                    <div class="contact-text">
+                        <p><%= candidate.email %></p>
+                    </div>
+                </div>
+                <div class="contact-list">
+                    <div class="icon-container">
+                        <img src="./images/phone.svg" alt="Phone Icon">
+                    </div>
+                    <div class="contact-text">
+                        <p><%= candidate.phoneNumber %></p>
+                    </div>
+                </div>
+                <div class="contact-list">
+                    <div class="icon-container">
+                        <img src="./images/website.svg" alt="Website Icon">
+                    </div>
+                    <div class="contact-text">
+                        <p>www.reallygreatsite.com</p>
+                    </div>
+                </div>
+                <div class="contact-list">
+                    <div class="icon-container">
+                        <img src="./images/linkedin.svg" alt="LinkedIn Icon">
+                    </div>
+                    <div class="contact-text">
+                        <p>@reallygreatsite</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="education-container">
+                <h2 class="title">Education</h2>
+                <% candidate.qualifications.forEach(function(qual) { %>
+                <div class="course">
+                    <h2 class="education-title"><%= qual.qualification %> in <%= qual.degree %></h2>
+                    <h5 class="college-name"><%= qual.school %> at <%= qual.city %></h5>
+                    <p class="education-date"><%= new Date(qual.startDate).getFullYear() %> - <%= new Date(qual.endDate).getFullYear() %></p>
+                </div>
+                <% }); %>       
+            </div>
+
+            <div class="skills-container">
+                <h2 class="title">Skills</h2>
+                <% candidate.skill.forEach(function(skill) { %>
+                <div class="skill">
+                    <div class="left-skill">
+                        <p>&#8226;&nbsp;&nbsp;<%= skill.name %></p>
+                    </div>
+                    <!-- <div class="right-skill">
+                        <div class="outer-layer">
+                            <div class="inner-layer" style="width: 60%;"></div>
+                        </div>
+                    </div> -->
+                </div>
+                <% }); %>
+                <div class="page-break"></div>
+            </div>
+
+        </div>
+        <div class="right-part">
+            <div class="banner">
+                <div class="name-container">
+                    <h1 class="firstname"><%= candidate.name %></h1>
+                </div>
+                <p class="position">Software Developer</p>
+            </div>
+
+            <div class="objective-container">
+                <h2 class="title text-left">Objective</h2>
+                <div class="objective">
+                    <p class="objective-text"><%= candidate.objective.objective %></p>
+                </div>
+            </div>
+
+            <div class="objective-container">
+                <h2 class="title text-left">Summary</h2>
+                <div class="objective">
+                    <p class="objective-text"><%= candidate.summary %></p>
+                </div>
+                
+            </div>
+
+            <div class="work-container">
+                <h2 class="title text-left">Experience</h2>
+                <% candidate.experience.forEach(function(exp) { %>
+                <div class="work">
+                    <div class="job-date">
+                        <p class="job"><%= exp.desigination %></p>
+                        <p class="date"><%= new Date(exp.startDate).toLocaleDateString() %> - <%= new Date(exp.endDate).toLocaleDateString() %></p>
+                    </div>
+                    <h2 class="company-name"><%= exp.organizationName %> l <%= exp.city %></h2>
+                    <p class="work-text"><%= exp.description %></p>
+                </div>
+                <% }); %>
+            </div>
+
+            <div class="skills-container">
+                <h2 class="title text-left">Language</h2>
+                <% candidate.language.forEach(function(lang) { %>
+                <div class="skill">
+                    <div class="left-skill">
+                        <p>&#8226;&nbsp;&nbsp;<%= lang.name %></p>
+                    </div>
+                    <div class="right-reference">
+                            <p><%= lang.proficiencyLevel %></p>
+                    </div>
+                </div>
+                <% }); %>
+                <div class="page-break"></div>
+            </div>
+
+
+            <div class="work-container">
+                <h2 class="title text-left">Hobbies</h2>
+                <div class="hobbies-container">
+                    <% candidate.hobby.forEach(function(hobby) { %>
+                    <div class="hobby">
+                        <p>&#8226;&nbsp;&nbsp;<%= hobby %></p>
+                    </div>
+                    <% }); %>
+                </div>
+            </div>
+            
+
+            <div class="references-container">
+                <h2 class="title text-left">References</h2>
+                <div class="references">
+                    <% candidate.reference.forEach(function(ref) { %>
+                    <div class="left-references">
+                        <h6 class="name"><%= ref.name %></h6>
+                        <div class="phone">
+                            <div class="phone-text">
+                                <p>Email:</p>
+                            </div>
+                            <div class="phone-number">
+                                <p><%= ref.email %></p>
+                            </div>
+                        </div>
+                    </div>
+                    <% }); %>  
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= candidate.name %> Resume</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Montserrat:wght@700&display=swap">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #333333;
+        }
+
+        #cv {
+            width: 85%;
+            max-width: 1000px;
+            margin: 20px auto;
+            background-color: #ffffff;
+            padding: 15px;
+        }
+
+        .header {
+            text-align: center;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e0e0e0;
+        }
+
+        .header h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2.5em;
+            color: #4a90e2;
+            margin: 0;
+        }
+
+        .header .contact-info {
+            font-size: 1em;
+            margin-top: 10px;
+        }
+
+        .header .contact-info a {
+            color: #4a90e2;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .header .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        .section {
+            padding: 10px 0;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .section:last-child {
+            border-bottom: none;
+        }
+
+        .section-title {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.4em;
+            color: #4a90e2;
+            margin-bottom: 5px;
+            position: relative;
+            padding-bottom: 5px;
+            display: inline-block;
+        }
+
+        .section-title::after {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            background-color: #4a90e2;
+            left: 0;
+            bottom: -5px;
+        }
+
+        .content-item {
+            margin-bottom: 20px;
+        }
+
+        .content-item h3 {
+            font-weight: 500;
+            margin: 0;
+            color: #333333;
+        }
+
+        .content-item span {
+            font-size: 0.9em;
+            color: #777777;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .content-item p {
+            margin: 5px 0;
+            color: #555555;
+            line-height: 1.6;
+        }
+
+        
+        .skills, .languages, .hobbies {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .skill-item, .language-item, .hobby-item,.reference-item {
+            width: 48%;
+            margin-top: 3px;
+            margin-bottom: 10px;
+        }
+
+        .skill-item li, .language-item li, .hobby-item li, .reference-item li {
+            list-style: none;
+            color: #555555;
+            position: relative;
+            padding-left: 20px;
+            margin-top: 5px;
+        }
+
+        .skill-item li::before, .language-item li::before, .hobby-item li::before {
+            content: '✔';
+            color: #4a90e2;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+
+.references {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.reference-item {
+    width: 48%;
+    margin-bottom: 10px;
+}
+
+.reference-item li {
+    list-style: none;
+    color: #555555;
+    position: relative;
+    padding-left: 20px;
+}
+
+.reference-item li::before {
+    content: '✔';
+    color: #4a90e2;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .reference-item {
+        width: 100%;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div id="cv">
+        <div class="header">
+            <h1><%= candidate.name %></h1>
+            <div class="contact-info">
+                <a href="mailto:"><%= candidate.email %></a> |
+                <a href="tel:+"><%= candidate.phoneNumber %></a> |
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Objective</div>
+            <p><%= candidate.objective.objective %></p>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Summary</div>
+            <p><%= candidate.summary %></p>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Experience</div>
+            <% candidate.experience.forEach(function(exp) { %>
+                <div class="content-item">
+                    <h3><%= exp.desigination %></h3>
+                    <span><%= exp.organizationName %>, <%= new Date(exp.startDate).toLocaleDateString() %> - <%= new
+                        Date(exp.endDate).toLocaleDateString() %></span>
+                    <p><%= exp.description %></p>
+                </div>
+            <% }); %>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Education</div>
+            <% candidate.qualifications.forEach(function(edu) { %>
+                <div class="content-item">
+                    <h4><%= edu.degree %></h4>
+                    <span><%= edu.school %> at <%= edu.city %></span>
+                    <span>`<%= new Date(edu.startDate).getFullYear() %> - <%= new
+                        Date(edu.endDate).getFullYear() %></span>
+                </div>
+            <% }); %>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Skills</div>
+            <div class="skills">
+                <% candidate.skill.forEach(function(skill) { %>
+                    <div class="skill-item">
+                        <li><%= skill.name %></li>
+                    </div>
+                <% }); %>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Languages</div>
+            <div class="languages">
+                <% candidate.language.forEach(function(language) { %>
+                    <div class="language-item">
+                        <li><%= language.name %> - <%= language.proficiencyLevel %></li>
+                    </div>
+                <% }); %>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Hobbies</div>
+            <div class="hobbies">
+                <% candidate.hobby.forEach(function(hobby,index) { %>
+                    <div class="hobby-item">
+                        <li><%= hobby %></li>
+                    </div>
+                <% }); %>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">References</div>
+            <div class="references">
+                <% candidate.reference.forEach(function(reference) { %>
+                    <div class="reference-item">
+                        <li>
+                            <strong><%= reference.name %></strong> - 
+                            <a><%= reference.email %></a>
+                        </li>
+                    </div>
+                <% }); %>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>

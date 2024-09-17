@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= candidate.name %> Resume</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            color: #333;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 800px;
+            margin-top: 20px;
+        }
+        .section-title {
+            background-color: #007bff;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        .section-content {
+            margin-bottom: 20px;
+        }
+        .row {
+            margin-bottom: 10px;
+        }
+        .contact-info, .skills, .education, .experience, .projects, .languages, .hobbies, .references {
+            margin-bottom: 20px;
+        }
+        .education-item, .experience-item {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
+        .education-item p, .experience-item p {
+            margin: 0;
+        }
+        .education-item .details, .experience-item .details {
+            text-align: right;
+        }
+        .skills-list li {
+            list-style-type: none;
+            margin-bottom: 5px;
+        }
+        .skills-list i {
+            margin-right: 8px;
+        }
+        .contact-info p {
+            display: inline;
+            margin-right: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header class="text-center">
+        <h1><%= candidate.name %></h1>
+        <p><%= candidate.summary %></p>
+    </header>
+
+    <!-- Personal Information -->
+    <div class="contact-info">
+        <div class="section-title">Personal Information</div>
+        <div class="section-content">
+            <p><strong>Email:</strong> <%= candidate.email %></p>
+            <p><strong>Phone:</strong> <%= candidate.phoneNumber %></p>
+            <p><strong>Address:</strong> <%= candidate.address %></p>
+        </div>
+    </div>
+
+    <!-- Objective -->
+    <div class="objective">
+        <div class="section-title">Objective</div>
+        <div class="section-content">
+            <p><%= candidate.objective.objective %></p>
+        </div>
+    </div>
+
+    <!-- Education -->
+    <div class="education">
+        <div class="section-title">Education</div>
+        <div class="section-content">
+            <% candidate.qualifications.forEach(function(qualification) { %>
+                <div class="education-item">
+                    <div class="info">
+                        <p><strong> <%= qualification.qualification %> in <%= qualification.degree %></strong></p>
+                        <p><%= qualification.school %> at <%= qualification.city %></p>
+                        <p class="details"><%= new Date(qualification.startDate).getFullYear() %> - <%= new Date(qualification.endDate).getFullYear() %></p>
+                    </div>
+                </div>
+            <% }); %>
+        </div>
+    </div>
+
+    <!-- Experience -->
+    <div class="experience">
+        <div class="section-title">Experience</div>
+        <div class="section-content">
+            <% candidate.experience.forEach(function(exp) { %>
+                <div class="experience-item">
+                    <div class="info">
+                        <p><strong><%= exp.organizationName %> at <%= exp.city %></strong></p>
+                        <p><%= exp.desigination %></p>
+                        <p><strong>Description:</strong> <%= exp.description %></p>
+                        <p class="details"><strong>Duration:</strong> <%= new Date(exp.startDate).toLocaleDateString() %> - <%= new Date(exp.endDate).toLocaleDateString() %></p>
+                    </div>
+                </div>
+            <% }); %>
+        </div>
+    </div>
+
+    <!-- Skills -->
+    <div class="skills">
+        <div class="section-title">Skills</div>
+        <div class="section-content">
+            <ul class="skills-list">
+                <% candidate.skill.forEach(function(skill) { %>
+                    <li><i class="fas fa-check"></i><%= skill.name %></li>
+                <% }); %>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Projects -->
+    <div class="projects">
+        <div class="section-title">Projects</div>
+        <div class="section-content">
+            <% candidate.project.forEach(function(project) { %>
+                <p><strong>Title:</strong> <%= project.title %></p>
+                <p><strong>Description:</strong> <%= project.description %></p>
+                <hr>
+            <% }); %>
+        </div>
+    </div>
+
+    <!-- Languages -->
+    <div class="languages">
+        <div class="section-title">Languages</div>
+        <div class="section-content">
+            <ul class="list-unstyled">
+                <% candidate.language.forEach(function(lang) { %>
+                    <li><%= lang.name %> - <%= lang.proficiencyLevel %></li>
+                <% }); %>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Hobbies -->
+    <div class="hobbies">
+        <div class="section-title">Hobbies</div>
+        <div class="section-content">
+            <ul class="list-unstyled">
+                <% candidate.hobby.forEach(function(hobby) { %>
+                    <li><%= hobby %></li>
+                <% }); %>
+            </ul>
+        </div>
+    </div>
+
+    <!-- References -->
+    <div class="references">
+        <div class="section-title">References</div>
+        <div class="section-content">
+            <% candidate.reference.forEach(function(ref) { %>
+                <p><strong>Name:</strong> <%= ref.name %></p>
+                <p><strong>Email:</strong> <%= ref.email %></p>
+                <hr>
+            <% }); %>
+        </div>
+    </div>
+</div>
+
+<!-- FontAwesome for icons -->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

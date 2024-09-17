@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= candidate.name %>Resume</title>
+
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content="The Curriculum Vitae of Joe Bloggs." />
+    <meta charset="UTF-8" />
+
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <link
+      href="http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <style>
+    html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,
+    fieldset,
+    form,
+    label,
+    legend,
+    table,
+    caption,
+    tbody,
+    tfoot,
+    thead,
+    tr,
+    th,
+    td,
+    article,
+    aside,
+    canvas,
+    details,
+    figcaption,
+    figure,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    section,
+    summary,
+    time,
+    mark,
+    audio,
+    video {
+      border: 0;
+      font: inherit;
+      font-size: 100%;
+      margin: 0;
+      padding: 0;
+      vertical-align: baseline;
+    }
+
+    article,
+    aside,
+    details,
+    figcaption,
+    figure,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    section {
+      display: block;
+    }
+
+    html,
+    body {
+      background: #ffffff;
+      font-family: "Lato", helvetica, arial, sans-serif;
+      font-size: 16px;
+      color: #222;
+    }
+
+    .clear {
+      clear: both;
+    }
+
+    p {
+      font-size: 1em;
+      line-height: 1.4em;
+      margin-bottom: 20px;
+      color: #444;
+    }
+
+    #cv {
+      width: 90%;
+      max-width: 800px;
+      background: #ffffff;
+      margin: 15px auto;
+    }
+
+    .mainDetails {
+      padding: 25px 35px;
+      border-bottom: 2px solid #cf8a05;
+      background: #ffffff;
+    }
+
+    #name h1 {
+      font-size: 2.5em;
+      font-weight: 700;
+      font-family: "Rokkitt", Helvetica, Arial, sans-serif;
+      margin-bottom: -6px;
+    }
+
+    #name h2 {
+      font-size: 2em;
+      margin-left: 2px;
+      font-family: "Rokkitt", Helvetica, Arial, sans-serif;
+    }
+
+    #mainArea {
+      padding: 0 40px;
+    }
+
+    #headshot {
+      width: 12.5%;
+      float: left;
+      margin-right: 30px;
+    }
+
+    #headshot img {
+      width: 100%;
+      height: auto;
+      -webkit-border-radius: 50px;
+      border-radius: 50px;
+    }
+
+    #name {
+      float: left;
+    }
+
+    #contactDetails {
+      float: right;
+    }
+
+    #contactDetails ul {
+      list-style-type: none;
+      font-size: 0.9em;
+      margin-top: 2px;
+    }
+
+    #contactDetails ul li {
+      margin-bottom: 3px;
+      color: #444;
+    }
+
+    #contactDetails ul li a,
+    a[href^="tel"] {
+      color: #444;
+      text-decoration: none;
+    }
+
+    #contactDetails ul li a:hover {
+      color: #cf8a05;
+    }
+
+    section {
+      border-top: 1px solid #dedede;
+      padding: 20px 0 0;
+    }
+
+    section:first-child {
+      border-top: 0;
+    }
+
+    section:last-child {
+      padding: 20px 0 10px;
+    }
+
+    .sectionTitle {
+      float: left;
+      width: 25%;
+    }
+
+    .sectionContent {
+      float: right;
+      width: 72.5%;
+    }
+
+    .sectionTitle h1 {
+      font-family: "Rokkitt", Helvetica, Arial, sans-serif;
+      font-style: italic;
+      font-size: 1.5em;
+      color: #cf8a05;
+    }
+
+    .sectionContent h2 {
+      font-family: "Rokkitt", Helvetica, Arial, sans-serif;
+      font-size: 1.5em;
+      margin-bottom: -2px;
+    }
+
+    .subDetails {
+      font-size: 0.8em;
+      font-style: italic;
+      margin-bottom: 3px;
+    }
+
+    .skillsGrid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-bottom: 0;
+    }
+
+    .skillItem {
+      width: 48%;
+      list-style: none;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+    }
+
+    .clear {
+      clear: both;
+    }
+
+    @media print {
+      section {
+        page-break-inside: avoid;
+      }
+    }
+
+    .languageItem {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 3px;
+    }
+
+    .languageName {
+      font: inherit;
+      font-size: 0.9em;
+      color: #232323;
+    }
+
+    .languageLevel {
+      font-family: "Lato", Helvetica, Arial, sans-serif;
+      font-size: 0.8em;
+      color: #888;
+      text-align: right;
+    }
+
+    .hobbiesGrid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .hobbyItem {
+      width: 48%;
+      margin-bottom: 10px;
+    }
+
+    .clear {
+      clear: both;
+    }
+
+    .referencesGrid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .referenceItem {
+      width: 48%;
+      margin-bottom: 10px;
+    }
+
+    .clear {
+      clear: both;
+    }
+
+    @media all and (max-width: 480px) {
+      .referenceItem {
+        width: 100%;
+      }
+    }
+
+    @media all and (max-width: 480px) {
+      .hobbyItem {
+        width: 100%;
+      }
+    }
+
+    @media all and (min-width: 602px) and (max-width: 800px) {
+      #headshot {
+        display: none;
+      }
+
+      .keySkills {
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-count: 2;
+      }
+    }
+
+    @media all and (max-width: 601px) {
+      #cv {
+        width: 95%;
+        margin: 10px auto;
+        min-width: 280px;
+      }
+
+      #headshot {
+        display: none;
+      }
+
+      #name,
+      #contactDetails {
+        float: none;
+        width: 100%;
+        text-align: center;
+      }
+
+      .sectionTitle,
+      .sectionContent {
+        float: none;
+        width: 100%;
+      }
+
+      .sectionTitle {
+        margin-left: -2px;
+        font-size: 1.25em;
+      }
+
+      .keySkills {
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-count: 2;
+      }
+    }
+
+    @media all and (max-width: 480px) {
+      .mainDetails {
+        padding: 15px 15px;
+      }
+
+      section {
+        padding: 15px 0 0;
+      }
+
+      #mainArea {
+        padding: 0 25px;
+      }
+
+      .keySkills {
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+        column-count: 1;
+      }
+
+      #name h1 {
+        line-height: 0.8em;
+        margin-bottom: 4px;
+      }
+    }
+
+    @media print {
+      #cv {
+        width: 100%;
+      }
+    }
+  </style>
+
+  <body id="top">
+    <div id="cv">
+      <div class="mainDetails">
+        <div id="headshot">
+          <!-- <img src="./images/avatar.jpg" alt="profile" /> -->
+          <img
+            src="https://w0.peakpx.com/wallpaper/208/752/HD-wallpaper-whatsapp-dp-cartoon.jpg"
+            alt="profile"
+          />
+        </div>
+
+        <div id="name">
+          <h1><%= candidate.name %></h1>
+          <h2>Job Title</h2>
+        </div>
+
+        <div id="contactDetails">
+          <ul>
+            <li>
+              email:
+              <!-- <a href="mailto:joe@bloggs.com" target="_blank"> -->
+                <%= candidate.email %>
+              </a>
+            </li>
+            <li>Mobile: <%= candidate.phoneNumber %></li>
+          </ul>
+        </div>
+        <div class="clear"></div>
+      </div>
+
+      <div id="mainArea">
+        <section>
+          <article>
+            <div class="sectionTitle">
+              <h1>Objective</h1>
+            </div>
+
+            <div class="sectionContent">
+              <p><%= candidate.objective.objective %></p>
+            </div>
+          </article>
+          <div class="clear"></div>
+        </section>
+        <section>
+          <article>
+            <div class="sectionTitle">
+              <h1>Summary</h1>
+            </div>
+            <div class="sectionContent">
+              <p><%= candidate.summary %></p>
+            </div>
+          </article>
+          <div class="clear"></div>
+        </section>
+
+        <section>
+          <div class="sectionTitle">
+            <h1>Experience</h1>
+          </div>
+          <% candidate.experience.forEach(function(exp) { %>
+          <div class="sectionContent">
+            <article>
+              <h2><%= exp.desigination %> at <%= exp.organizationName %></h2>
+              <p class="subDetails">
+                <%= new Date(exp.startDate).toLocaleDateString() %> - <%= new
+                Date(exp.endDate).toLocaleDateString() %>
+              </p>
+              <p><%= exp.description %></p>
+            </article>
+          </div>
+          <% }); %>
+
+          <div class="clear"></div>
+        </section>
+
+        <section>
+          <div class="sectionTitle">
+            <h1>Skills</h1>
+          </div>
+
+          <div class="sectionContent">
+            <div class="skillsGrid">
+              <% candidate.skill.forEach(function(skill) { %>
+              <div class="skillItem">
+                <li>&#8226;&nbsp;&nbsp;<%= skill.name %></li>
+              </div>
+              <% }); %>
+            </div>
+          </div>
+          <div class="clear"></div>
+        </section>
+
+        <section>
+          <div class="sectionTitle">
+            <h1>Education</h1>
+          </div>
+
+          <div class="sectionContent">
+            <article>
+              <% candidate.qualifications.forEach(function(qual) { %>
+
+              <h2><%= qual.school %> at <%= qual.city %></h2>
+              <p class="subDetails">
+                <%= qual.qualification %> in <%= qual.degree %>
+              </p>
+              <p>
+                <%= new Date(qual.startDate).getFullYear() %> - <%= new
+                Date(qual.endDate).getFullYear() %>
+              </p>
+              <% }); %>
+            </article>
+          </div>
+          <div class="clear"></div>
+        </section>
+
+        <section>
+          <div class="sectionTitle">
+            <h1>Languages</h1>
+          </div>
+
+          <div class="sectionContent">
+            <% candidate.language.forEach(function(language) { %>
+            <article class="languageItem">
+              <div class="languageName">
+                <h2><%= language.name %></h2>
+              </div>
+              <div class="languageLevel">
+                <p><%= language.proficiencyLevel %></p>
+              </div>
+            </article>
+            <% }); %>
+          </div>
+
+          <div class="clear"></div>
+        </section>
+
+        <section>
+          <div class="sectionTitle">
+            <h1>Hobbies</h1>
+          </div>
+
+          <div class="sectionContent">
+            <div class="hobbiesGrid">
+              <% candidate.hobby.forEach(function(hobby,index) { %>
+
+              <div class="hobbyItem">
+                <h2>&#8226;&nbsp;&nbsp;<%= hobby%></h2>
+              </div>
+              <% if ((index + 1) % 2===0) { %>
+              <div class="clear"></div>
+              <% } %> <% }); %>
+            </div>
+          </div>
+
+          <div class="clear"></div>
+        </section>
+
+        <section>
+          <div class="sectionTitle">
+            <h1>References</h1>
+          </div>
+
+          <div class="sectionContent">
+            <div class="referencesGrid">
+              <% candidate.reference.forEach(function(reference, index) { %>
+              <div class="referenceItem">
+                <div class="referenceName">
+                  <h2>Name: <%= reference.name %></h2>
+                  <p>Email: <%= reference.email %></p>
+                </div>
+              </div>
+              <% if ((index + 1) % 2===0) { %>
+              <div class="clear"></div>
+              <% } %> <% }); %>
+            </div>
+          </div>
+
+          <div class="clear"></div>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
