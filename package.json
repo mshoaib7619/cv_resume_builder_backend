@@ -4,6 +4,7 @@
   "description": "backend",
   "main": "index.js",
   "scripts": {
+    "postinstall": "npm install pg",
     "build": "echo 'No build step needed'",
     "start": "node index.js"
   },
