@@ -66,16 +66,16 @@ module.exports = (sequelize, DataTypes) => {
                 },
             },
         },
-        // jobTitle: {
-        //     type: DataTypes.STRING(50),
-        //     allowNull: false,
-        //     validate: {
-        //         notEmpty: {
-        //             args: true,
-        //             msg: "Job title is required."
-        //         },
-        //     },
-        // },
+        jobTitle: {
+            type: DataTypes.STRING(50),
+            allowNull: false,
+            validate: {
+                notEmpty: {
+                    args: true,
+                    msg: "Job title is required."
+                },
+            },
+        },
         summary: {
             type: DataTypes.STRING(500),
             allowNull: false,
