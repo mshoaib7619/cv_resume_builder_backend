@@ -40,6 +40,15 @@ app.use((req, res, next) => {
 });
 app.use(routes);
 
+
+
+// Welcome route
+app.get('/', (req, res) => {
+  res.send('Welcome to the Backend!');
+});
+app.get('/favicon.ico', (req, res) => res.status(204).end());
+
+
 app.use((req, res, next) => {
   const err = new Error('Not Found');
   err.status = 404;
