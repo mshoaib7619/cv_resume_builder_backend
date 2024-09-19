@@ -1,16 +1,17 @@
   const router = require('express').Router();
-  // const middleware = require('../middleware');
+
+  const middleware = require('../middleware');
   const controllers = require('../controllers/auth');
-  // const constants = require('../constants');
+  const constants = require('../constants');
 
   router.post('/login',
-    // middleware.authenticateLogin,
-    // middleware.loadUserContext,
+    middleware.authenticateLogin,
+    middleware.loadUserContext,
     controllers.login,
   );
 
   router.get('/logout',
-    // middleware.isLoggedIn,
+    middleware.isLoggedIn,
     controllers.logout
   );
 
