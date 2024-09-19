@@ -1,30 +1,24 @@
-const router = require('express').Router();
+  const router = require('express').Router();
 
-const middleware = require('../middleware');
-const controllers = require('../controllers/auth');  
+  const middleware = require('../middleware');
+  const controllers = require('../controllers/auth');
+  const constants = require('../constants');
 
-router.post('/login',
-  middleware.authenticateLogin,
-  middleware.loadUserContext,
-  controllers.login,   
-);
+  router.post('/login',
+    middleware.authenticateLogin,
+    middleware.loadUserContext,
+    controllers.login,
+  );
 
-router.get('/logout',
-  middleware.isLoggedIn,
-  controllers.logout    
-);
+  router.get('/logout',
+    middleware.isLoggedIn,
+    controllers.logout
+  );
 
-router.post('/signup',
-  controllers.signup    
-);
+  router.post('/signup',
+    controllers.signup
+  );
 
-module.exports = {
-  login,
-  signup,
-  logout,
-  getProfile,
-  updateProfile,
-  isUsernameAvailable,
-  authenticatePasswordToken
-};
 
+
+  module.exports = router;
