@@ -8,7 +8,7 @@ module.exports = {
       POSTGRES_HOST: "ep-ancient-smoke-a4thmd5w-pooler.us-east-1.aws.neon.tech",
       POSTGRES_PASSWORD: "TzuqoIAHE28F",
       POSTGRES_DATABASE: "verceldb",
-      // dialect: 'postgres',
+      dialect: 'postgres',
       dialectModule: require('pg'),
       logging: (log) => {
         console.log('\n--------------------Start---------------------\n');

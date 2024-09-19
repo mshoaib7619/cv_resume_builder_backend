@@ -10,7 +10,7 @@ const config = {
       database: 'verceldb',
       host: 'ep-ancient-smoke-a4thmd5w-pooler.us-east-1.aws.neon.tech',
       port: 5432,
-      // dialect: 'postgres',
+      dialect: 'postgres',
       dialectModule: require('pg'),
       logging: global.cli.logQuery,
       dialectOptions: {
@@ -36,6 +36,7 @@ const config = {
       host: 'ep-ancient-smoke-a4thmd5w-pooler.us-east-1.aws.neon.tech',
       port: 5432,
       dialect: 'postgres',
+      dialectModule: require('pg'),
       logging: global.cli.logQuery,
       dialectOptions: {
         ssl: {
