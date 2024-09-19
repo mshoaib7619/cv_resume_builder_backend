@@ -1,7 +1,7 @@
 const express = require("express");
 
 const router = express.Router();
-const controllers = require("../../controllers");
+const controllers = require("../../controllers/auth");
 
 router.get('/user-context', (req, res) => {
   res.json(req.userContext);
@@ -9,7 +9,7 @@ router.get('/user-context', (req, res) => {
 
 router.get(
   '/username-available/:username',
-  controllers.auth.isUsernameAvailable
+  controllers.isUsernameAvailable
 );
 
 
