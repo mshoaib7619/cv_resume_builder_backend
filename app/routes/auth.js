@@ -1,21 +1,30 @@
 const router = require('express').Router();
 
 const middleware = require('../middleware');
-const controllers = require('../controllers/auth');  // This is importing the 'auth.js' file directly
+const controllers = require('../controllers/auth');  
 
 router.post('/login',
   middleware.authenticateLogin,
   middleware.loadUserContext,
-  controllers.login,   // Since you're importing the 'auth' directly, use 'controllers.login' here
+  controllers.login,   
 );
 
 router.get('/logout',
   middleware.isLoggedIn,
-  controllers.logout    // Same here, use 'controllers.logout'
+  controllers.logout    
 );
 
 router.post('/signup',
-  controllers.signup    // And here
+  controllers.signup    
 );
 
-module.exports = router;
+module.exports = {
+  login,
+  signup,
+  logout,
+  getProfile,
+  updateProfile,
+  isUsernameAvailable,
+  authenticatePasswordToken
+};
+
